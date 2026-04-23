@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+blind-assist-ml/
+
+# ML — exclude large model files (too big for GitHub)
+ml/data/
+ml/models/*.pt
+ml/models/blip2_adapter/
+*.safetensors
+*.bin
+
+# Node
+node_modules/
+.npm/
+
+# Environment / secrets
+.env
+*.env.local
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+.idea/
+
+
+
+
+# YOLO weights and training runs
+*.pt
+runs/
+yolov8n.pt

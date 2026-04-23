@@ -1,0 +1,26 @@
+{
+  "short_name": "BlindAssist",
+  "name": "Blind Assist — AI Visual Navigation",
+  "description": "Real-time on-device object detection and navigation assistance for the visually impaired.",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": ".",
+  "display": "fullscreen",
+  "orientation": "portrait",
+  "theme_color": "#000000",
+  "background_color": "#000000",
+  "categories": ["accessibility", "utilities"],
+  "lang": "en"
+}
