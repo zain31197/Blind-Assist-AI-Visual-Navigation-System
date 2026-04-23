@@ -31,7 +31,7 @@ export default function App() {
   const { vibrate } = useHaptic(settings.hapticFeedback);
 
   const {
-    videoRef, status: cameraStatus, error: cameraError,
+    videoRef, error: cameraError,
     startCamera, stopCamera, flipCamera, isActive: isCameraActive,
   } = useCamera();
 
